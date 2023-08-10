@@ -216,4 +216,4 @@ python MCdecoyspeptides.py -s 6 -r receptor fasta -n 50 -p prefix
 summer Project
 python generateAlphafold_v2.3.2.py -s GPR37L1_A6NKC4_0.fasta -m 1000 -c 10 -dropout -t 1975-12-01
 
-then gind-screen the models : python Screening_GPR_AFmodel.py model_folder
+then massive-screen the models : python Screening_GPR_AFmodel.py model_folder
