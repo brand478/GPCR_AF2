@@ -50,7 +50,6 @@ def get_trajectory(pdb_file):
     os.system(cmd1)
     return dcd_file
 
-
 def main():
 
     args = getArguments()
@@ -70,9 +69,6 @@ def main():
                             --sele2 "chain B" \
                             --itypes all'
     os.system(cmd2)
-
- 
-
 
 if __name__ == '__main__':
 

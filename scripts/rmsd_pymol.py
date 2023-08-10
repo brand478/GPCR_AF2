@@ -1,5 +1,5 @@
 '''
-
+align the prediction and reference to get RMSD value
 pymol -c script.py -- model.pdb ref.pdb
 
 '''

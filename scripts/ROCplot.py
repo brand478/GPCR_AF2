@@ -1,5 +1,5 @@
 '''
-script for enrichment
+script for enrichment plot
 '''
 
 import plotly.graph_objects as go
