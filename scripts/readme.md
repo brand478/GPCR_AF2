@@ -1,19 +1,19 @@
 # Alphafold Benchmarking
------------------------
+
 Thesis Project 2020/11-2023/6 in Carlsson Lab
 ## Workflow
 
 ### Preparation
--------------
+
 From PDB download pdb and FASTA file for protein-peptide comlexes.
 
 Before running AlphaFold_v2, make sure that the fasta files as input sequences are identical with PDB files.
 
-==The fasta files have the format below:
+**The fasta files have the format below:
 		>sequence_1
 		PROTEIN_SEQUENCE
 		>sequence_2
-		PEPTIDE_SEQUENCE==
+		PEPTIDE_SEQUENCE**
 
 In reference PBD files, the name for GPCR chain should be A , and for peptide should be B:
 	
@@ -220,14 +220,10 @@ For alphaofld version 2.3:
 		python statistic.py csv_folder
 
 	so that we can get the `RMSD` value for models possessing the best `pLDDT` value and the best `DockQ` value. 
--------
+
 ### Generate Decoy for enrichment:
 
 	python MCdecoyspeptides.py -s 6 -r receptor fasta -n 50 -p prefix
-
---------
-
-
 
 # summer Project
 
