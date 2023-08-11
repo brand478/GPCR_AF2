@@ -222,11 +222,11 @@ For alphaofld version 2.3:
 
 	so that we can get the `RMSD` value for models possessing the best `pLDDT` value and the best `DockQ` value. 
 
-### Generate Decoy for enrichment:
+### Generate Decoy for Enrichment:
 
 	python MCdecoyspeptides.py -s 6 -r receptor fasta -n 50 -p prefix
 
-# summer Project
+# Summer Project
 
 	python generateAlphafold_v2.3.2.py -s GPR37L1_A6NKC4_0.fasta -m 1000 -c 10 -dropout -t 1975-12-01
 
